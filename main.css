@@ -9,6 +9,11 @@ body {
     /*grid-template-columns: 30% 20% 50%;*/
     /*grid-template-columns: 1fr 2fr 1fr;*/
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(10, minmax(200px, auto));
+    /*grid-gap: 10px*/
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    /*grid-auto-rows: minmax(200px, auto);*/
     max-width: 960px;
     margin: 0 auto;
 }
